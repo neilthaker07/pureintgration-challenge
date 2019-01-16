@@ -8,5 +8,5 @@
             'major' : r.status == 'major',
             'ok' : r.status == 'ok'
          }"
-     [routerLink]="['chart']" [queryParams]="{name:r.name, status:r.status}">{{ r.name }}{{ r.status }}</button>
+     [routerLink]="['/chart']" [queryParams]="{name:r.name, status:r.status}">{{ r.name }}{{ r.status }}</button>
 </li>

@@ -8,15 +8,15 @@ import { ActivatedRoute } from '@angular/router';
 })
 
 export class ChartComponent implements OnInit {
+   
+  /*name : string = queryParams.name;
+  status : string = queryParams.status;*/
 
-  name : string;
-  status : string;
-
-  constructor(private route: ActivatedRoute)) { 
-      this.route.queryParams.subscribe(params => {
+  constructor(/*private route: ActivatedRoute)*/) { 
+      /*this.route.queryParams.subscribe(params => {
               this.name = params["name"];
               this.status = params["status"];
-          });
+          });*/
     }
 
   ngOnInit() {
